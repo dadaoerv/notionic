@@ -1,5 +1,5 @@
 const BLOG = {
-  title: '随便博客',
+  title: '大叔随笔',
   author: '马里澳大叔',
   email: 'drhealthycell@gmail.com',
   link: 'https://www.notion4ai.eu.org',
