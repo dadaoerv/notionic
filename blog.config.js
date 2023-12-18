@@ -1,10 +1,10 @@
 const BLOG = {
-  title: 'Notionic',
-  author: '左蓝',
-  email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
-  newsletter: 'Notionic Weekly',
-  description: 'A static blog build on top of Notion and Next.js',
+  title: '随便博客',
+  author: '马里澳大叔',
+  email: 'drhealthycell@gmail.com',
+  link: 'https://www.notion4ai.eu.org',
+  newsletter: '科技动向',
+  description: '饭圈最新技术流',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -29,22 +29,22 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    twitter: 'https://twitter.com/',
+    github: 'https://github.com/dadaoerv',
+    telegram: 'https://t.me/unclemaio_bot'
   },
   seo: {
-    keywords: ['Notionic', 'Zuolan', 'Blog'],
+    keywords: ['Notionic', 'unclemario', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: 'izuolan.notion.site',
+  notionDomain: 'ucmc.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
-  telegramChatId: '263895784', // The chat id of your Telegram bot
-  telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
-  telegramChannelName: 'zuolan_me', // The name of your Telegram channel
+  telegramChatId: '652336647', // The chat id of your Telegram bot
+  telegramChannelUrl: 'https://t.me/PIN1Group_FW', // The link of your Telegram channel
+  telegramChannelName: 'PIN1Group_FW', // The name of your Telegram channel
   craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee, Umami and Cloudflare Insights, please fill with 'ga' or 'ackee' or 'umami' or 'cf', leave it empty to disable it.
@@ -67,10 +67,10 @@ const BLOG = {
   },
   comment: {
     // support provider: utterances, supacomments
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'supacomments', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
-      supabaseUrl: '', // The url of your Supabase instance
-      supabaseAnonKey: '' // The anonymous key of your Supabase instance
+      supabaseUrl: 'https://qkvtinigpolgrzhtteyb.supabase.co', // The url of your Supabase instance
+      supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFrdnRpbmlncG9sZ3J6aHR0ZXliIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDI4NjUwMjEsImV4cCI6MjAxODQ0MTAyMX0.H7e4th0mYRjt3ZsWkVvYhoor08-OKuUE2He0iLO8bs8' // The anonymous key of your Supabase instance
     },
     utterancesConfig: {
       repo: ''
